@@ -348,16 +348,16 @@ if (minute == 9 || minute == 19 || minute == 29 || minute == 39 ||minute == 49 |
 }
 
 
-if (minute < 20 && minute > 10) {
+if (minute < 20 && minute >= 10) {
     circle2();
 }
-if (minute < 30 && minute > 20) {
+if (minute < 30 && minute >= 20) {
     halfcircle2();
 }
-if (minute < 40 && minute > 30) {
+if (minute < 40 && minute >= 30) {
     triangle2();
 }
-if (minute < 50 && minute > 40) {
+if (minute < 50 && minute >= 40) {
     rectangle2();
 }
 if (minute <= 59 && minute >= 50) {
