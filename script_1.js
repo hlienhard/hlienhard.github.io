@@ -316,7 +316,7 @@ if (hour == 11 || hour == 23) {
 }
 if (hour == 12 || hour == 0) {
     circle0();
-    circle1();
+    halfcircle1();
 }
  
 if (minute == 1 || minute == 11 || minute == 21 || minute == 31 ||minute == 41 ||minute == 51) {
